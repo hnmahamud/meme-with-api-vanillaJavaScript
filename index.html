@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <section class="w-[80%] mx-auto my-8">
+        <div class="flex justify-center align-middle text-center">
+            <div id="card-container" class="card lg:card-side bg-base-100 shadow-xl">
+                <figure><img class="h-96" src="${data.url}" alt="" /></figure>
+                <!-- <div class="card-body">
+                    <h2 class="card-title">${data.title}"</h2>
+                    <p>${data.author}</p>
+                    <div class="card-actions justify-end">
+                        <button onclick="loadUser()" class="btn btn-xs">Generate New Meme</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <script src="js/utilities.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
